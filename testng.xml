@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Famcare">
+    <test name="Setup Test">
+        <classes>
+            <class name="setup.SetupTest"/><!--            <class name="practiceTests.testParameters"/>-->
+        </classes>
+
+    </test>
+
+    <test name="Home Screen Test">
+        <classes>
+
+            <class name="home.sections.HeaderTest"/>
+            <class name="home.sections.OfficialAgenciesSectionTest"/>
+            <class name="home.sections.SpecialistsSectionTest"/>
+<!--            <class name="practiceTests.testParameters"/>-->
+        </classes>
+    </test>
+
+
+    <test name="Specialist Screen Test">
+        <classes>
+            <class name="specialist.SearchTest"/>
+            <!--            <class name="practiceTests.testParameters"/>-->
+        </classes>
+    </test>
+
+    <test name="Specialist Profile Screen Test">
+        <classes>
+            <class name="profile_specialist.ProfileSpecialist"/>
+            <!--            <class name="practiceTests.testParameters"/>-->
+        </classes>
+    </test>
+</suite>
+
